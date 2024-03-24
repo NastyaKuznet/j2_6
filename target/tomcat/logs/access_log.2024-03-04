@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:07:42:14 +0500] "GET / HTTP/1.1" 404 951 http-bio-8888-exec-2 51
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:07:42:14 +0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8888-exec-4 2
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:07:42:20 +0500] "GET /files?path=D:// HTTP/1.1" 200 8385 http-bio-8888-exec-5 1495
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:07:42:20 +0500] "GET /folderUp.png HTTP/1.1" 304 - http-bio-8888-exec-7 5
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:07:42:20 +0500] "GET /folder.png HTTP/1.1" 304 - http-bio-8888-exec-6 6
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:07:42:20 +0500] "GET /file.png HTTP/1.1" 304 - http-bio-8888-exec-9 5
+127.0.0.1 - - [04/Mar/2024:08:07:30 +0500] "GET /files?path=D:// HTTP/1.1" 200 8385 http-bio-8888-exec-1 187
+127.0.0.1 - - [04/Mar/2024:08:07:35 +0500] "GET /download?path=D:\hello.txt HTTP/1.1" 200 15 http-bio-8888-exec-3 19
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:08:07:43 +0500] "GET /files?path=D:\Minecraft HTTP/1.1" 200 684 http-bio-8888-exec-7 10
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:08:07:46 +0500] "GET /files?path=D:\ HTTP/1.1" 200 8384 http-bio-8888-exec-8 17
